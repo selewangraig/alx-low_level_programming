@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * print_times_table - print multiplication table up to n
  * @n: integer argument

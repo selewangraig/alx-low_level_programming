@@ -3,6 +3,7 @@
 /**
  * print_numbers - function that prints numbers from 0 - 9
  * followed by new line
+ * Return: void.
  */
 
 void print_numbers(void)
@@ -12,5 +13,5 @@ for (a = '0'; a <= '9'; a++)
 {
 _putchar(a);
 }
-_putchar("\n");
+_putchar('\n');
 }

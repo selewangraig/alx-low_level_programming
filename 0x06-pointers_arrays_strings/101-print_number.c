@@ -1,14 +1,11 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * _putchar - print character
- * print_number - prints an integer.
- * @n: integer
- * Return: void
- */
+* print_number - prints an integer.
+* @n: integer
+* Return: void
+*/
 
-int _putchar(char n)
 void print_number(int n)
 {
 unsigned int n1;

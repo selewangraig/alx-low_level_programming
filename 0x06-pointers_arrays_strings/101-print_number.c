@@ -2,32 +2,25 @@
 
 /**
  * print_number - prints an integer.
- * @n: input integer.
- * Return: integers.
+ * @n: integer
+ * Return: void
  */
+
 void print_number(int n)
 {
-int r, t, e;
+unsigned int n1;
 
-e = 1;
+n1 = n;
 
-if (n >= 0)
-r = n * -1;
-else
+if (n < 0)
 {
-r = n;
 _putchar('-');
+n1 = -n;
 }
 
-t = r;
-while (t <= -10)
+if (n1 / 10 != 0)
 {
-e *= 10;
-t /= 10;
+print_number(n1 / 10);
 }
-while (e >= 1)
-{
-_putchar(((r / e) % 10) * -1 + '0');
-e /= 10;
-}
+_putchar((n1 % 10) + '0');
 }

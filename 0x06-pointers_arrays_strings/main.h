@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int _putchar(char);
+int _putchar(char n);
 char *_strcat(char *dest, char *src);
 char *_strcat(char *dest, char *src);
 char *_strncpy(char *dest, char *src, int n);
